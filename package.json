@@ -1,0 +1,89 @@
+{
+  "name": "testproject",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^2.34.0",
+    "@azure/storage-blob": "^12.13.0",
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@progress/kendo-react-common": "5.12.1",
+    "@progress/kendo-react-form": "^5.12.1",
+    "@progress/kendo-react-inputs": "^5.12.1",
+    "@progress/kendo-react-labels": "^5.12.1",
+    "@progress/kendo-react-upload": "^5.12.1",
+    "@progress/kendo-theme-bootstrap": "^6.2.0",
+    "@progress/kendo-theme-default": "^6.2.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.3.1",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "captcha-image": "^1.2.6",
+    "cross-storage": "^1.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.8.2 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.2 || ^17.0.0 || ^18.0.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "typescript": "^5.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "peerDependencies": {
+    "@progress/kendo-licensing": "^1.3.0",
+    "@progress/kendo-react-buttons": "^5.0.0",
+    "@progress/kendo-react-intl": "^5.0.0",
+    "@progress/kendo-react-progressbars": "^5.0.0",
+    "@progress/kendo-svg-icons": "^1.0.0",
+    "react": "^16.8.2 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.2 || ^17.0.0 || ^18.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@progress/kendo-licensing": "^1.3.0",
+    "@progress/kendo-react-animation": "5.12.1",
+    "@progress/kendo-react-buttons": "5.12.1",
+    "@progress/kendo-react-intl": "5.12.1",
+    "@progress/kendo-react-progressbars": "5.12.1",
+    "@progress/kendo-svg-icons": "^1.0.0",
+    "@redux-devtools/core": "^3.13.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0"
+  },
+  "@progress": {
+    "friendlyName": "Upload",
+    "framework": "KendoReact"
+  },
+  "author": "Progress",
+  "license": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkxJQyJ9.eyJwcm9kdWN0cyI6W3sidHJpYWwiOnRydWUsImNvZGUiOiJLRU5ET1VJUkVBQ1QiLCJsaWNlbnNlRXhwaXJhdGlvbkRhdGUiOjE2ODI3NDcyNjF9XSwiaW50ZWdyaXR5Ijoic2tVVlFmc2V6RlZmVnpHUVwvWEpCVmVxQU5YZz0iLCJsaWNlbnNlSG9sZGVyIjoibmFzaHJhLmFobWVkQGFncmVleWEuY29tIiwiaWF0IjoxNjgwMzM0ODQ4LCJhdWQiOiJuYXNocmEuYWhtZWRAYWdyZWV5YS5jb20iLCJ1c2VySWQiOiJjYThjZTZiZC1mZGZhLTQ2YjYtODkzMS1hYjg1OTFjMzczODMifQ.OvmZT2cQLwbSzJVlzsbeAD36Et3XmLcMjaYwoj02WbIEWOJeJOrYnRV0n1RZX-EMfbqJAs0SOGAV2XT4QTxfzESSC8tySREVMddFkOxAw4xdCuoWfEUzurbTlneQsoglkBIZ0uZJTabPRONAdnyp97cYZXsmL0aYErtELSoZvrghFODwgillWZ9Sv-NlhNil94TTEJphmQsMsgy4uyyMAAFFAtmAFQsL6aXm50h4dWQzm1PR-4WN3dwMTv3cWExzQHMU5mVn8TW8PfNMA1Wcnv1oCJPGAbNiJMjrSNYtplDf9HCwCfBArkRhM_zj8yPIBGdw_vNcmcWXj8_agHY4zw",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}

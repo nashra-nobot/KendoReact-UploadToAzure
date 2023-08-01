@@ -19,8 +19,8 @@ export function getFileSizeInBytes(files: any) {
 const maxAllowedFileSize = 104857600 // 100 MB in bytes 
 
 
-const AzureSasToken = 'https://stcommentsdevwestus001.blob.core.windows.net/?sv=2022-11-02&ss=b&srt=co&spr=https&se=2023-08-01T05%3A16%3A46Z&sp=wd&sig=ZgCE6pcsVckBcdR0qgHh6uI6clJelJBTVoRd%2B0HGtkY%3D' //replace empty string with valid SAS token of the account 
-const AzureContainerName= 'comment-dev-temp' //replace empty string with the azure Container name, in which the files need tp be uploaded 
+const AzureSasToken = '' //replace empty string with valid SAS token of the account 
+const AzureContainerName= '' //replace empty string with the azure Container name, in which the files need tp be uploaded 
 
 type Props = {
   //_updateUploadedFiles?: (key: any) => void; // redux action 

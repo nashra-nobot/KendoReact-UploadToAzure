@@ -1,4 +1,4 @@
-This application helps one, to Upload files to Azure Storage using TypeScript using Azure APIs and Kendo React Upload component. 
+This application helps one, to Upload files to Azure Storage using Azure APIs and Kendo React Upload component. 
 
 There are various restrictions (built-in and customized), used, which are checked right after the user selects some files (selecting multiple files is allowed) and only if they are valid, the upload starts automatically or else the an alert message pops up on top of the page. 
 
